@@ -19,6 +19,7 @@
 ## Domain Adaptation:
 - **Basic work**: "Domain-Adversarial Training of Neural Networks", in Journal of Machine Learning Research, 2016.
 - **Attention based**: "Transferable Attention for Domain Adaptation", in AAAI, 2019.
+- **Structured KD**: "Structured Knowledge Distillation for Semantic Segmentation", in CVPR, 2019.
 
 
 ## Weakly Supervised:
