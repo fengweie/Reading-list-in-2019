@@ -24,3 +24,11 @@
 
 ## Weakly Supervised:
 - **Cls. & Seg.**: "Weakly-Supervised Simultaneous Evidence Identification and Segmentation for Automated Glaucoma Diagnosis", in AAAI, 2019. (写的一般，没太看懂)．
+
+
+## Saliency Detection:
+- **Select & Remove salient region**: "Real Time Image Saliency for Black Box Classifiers", in NIPS, 2017.
+
+
+## 待读：
+
