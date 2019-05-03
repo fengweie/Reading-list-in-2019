@@ -28,7 +28,13 @@
 
 ## Saliency Detection:
 - **Select & Remove salient region**: "Real Time Image Saliency for Black Box Classifiers", in NIPS, 2017.
+- **Multi-scale with SE block**: "Pyramid Feature Selective Network for Saliency detection", in CVPR, 2019.
 
+## Attention:
+- **Attention prior**: "Attention Based Glaucoma Detection: A Large-scale Database and CNN Model", in CVPR, 2019. (和ISBI的思路类似)．
+
+## Non-local:
+- **Basic work**: "Non-local Neural Networks", in CVPR, 2018.
 
 ## 待读：
 
