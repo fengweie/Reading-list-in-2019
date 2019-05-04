@@ -32,6 +32,7 @@
 
 ## Attention:
 - **Attention prior**: "Attention Based Glaucoma Detection: A Large-scale Database and CNN Model", in CVPR, 2019. (和ISBI的思路类似)．
+- **Self attention**: "SSA-CNN: Semantic Self-Attention CNN for Pedestrian Detection", in CVPR, 2019. (segmentation results concat feature maps).
 
 ## Non-local:
 - **Basic work**: "Non-local Neural Networks", in CVPR, 2018.
