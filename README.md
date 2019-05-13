@@ -37,5 +37,8 @@
 ## Non-local:
 - **Basic work**: "Non-local Neural Networks", in CVPR, 2018.
 
+## Fine-grained Classification:
+- **Trilinear Attention Sampling**: "Looking for the Devil in the Details : Learning Trilinear Attention Sampling Network for Fine-grained Image Recognition", in CVPR, 2019.
+
 ## 待读：
 
