@@ -39,6 +39,7 @@
 - **Self attention**: "SSA-CNN: Semantic Self-Attention CNN for Pedestrian Detection", in CVPR, 2019. (segmentation results concat feature maps).
 - **Spatial attention**: "LEARN TO PAY ATTENTION", in ICLR, 2018.
 - **Attention Mask**: "Attention Branch Network : Learning of Attention Mechanism for Visual Explanation", in CVPR, 2019.
+- **Attention Consistency**: "Visual Attention Consistency under Image Transforms for Multi-label Image Classification", in CVPR, 2019. (先变换后求attention和先求attention后变换之间保持一致)
 
 
 ## Non-local:
