@@ -42,10 +42,10 @@
 - **Attention Consistency**: "Visual Attention Consistency under Image Transforms for Multi-label Image Classification", in CVPR, 2019. (先变换后求attention和先求attention后变换之间保持一致)．
 - **Attention Constraint**: "DELTA: DEep Learning Transfer using Feature Map with Attention for Convolutional Networks", in ICLR, 2019. (限制pre-trained和fine-tuned network产生的attention map接近，避免fine-tune之后跑太偏产生over-fitting)．
 - **Spatial & Task Attention**: "A Dual Attention Network with Semantic Embedding for Few-shot Learning", in AAAI, 2019. 
-- **Spatial Attention**: "PSANet: Point-wise spatial attention network for scene parsing", in ECCV, 2018. (bi-direction spatial attention和over-completed conv有点意思)．🤨
+- **Spatial Attention**: "PSANet: Point-wise spatial attention network for scene parsing", in ECCV, 2018. (bi-direction spatial attention和over-completed conv有点意思)．
 - **Depth Attention**: "Depth-attentional Features for Single-image Rain Removal", in CVPR, 2019. (之后做polyp detection可以考虑用depth信息)．
-- **Pyramid Attention**: "Salient Object Detecti🤨on with Pyramid Attention and Salient Edges", in CVPR, 2019. 
-- **Co-Attention**: "See More, Know More: Unsupervised Video Object Segmentation with Co-Attention Siamese Networks", in CVPR, 2019. （之后可以仔细研究一下Co-attention）. 
+- **Pyramid Attention**: "Salient Object Detection with Pyramid Attention and Salient Edges", in CVPR, 2019. 
+- **Co-Attention**: "See More, Know More: Unsupervised Video Object Segmentation with Co-Attention Siamese Networks", in CVPR, 2019. （之后可以仔细研究一下Co-attention）. (⭐️⭐️)
 - **Contextual Attention**: "PiCANet: Learning Pixel-wise Contextual Attention for Saliency Detection", in CVPR, 2018. 
 - **Attention Dropout**: "Attention-based Dropout Layer for Weakly Supervised Object Localization", in CVPR, 2019. 
 
