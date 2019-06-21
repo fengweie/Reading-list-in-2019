@@ -39,7 +39,15 @@
 - **Self attention**: "SSA-CNN: Semantic Self-Attention CNN for Pedestrian Detection", in CVPR, 2019. (segmentation results concat feature maps).
 - **Spatial attention**: "LEARN TO PAY ATTENTION", in ICLR, 2018.
 - **Attention Mask**: "Attention Branch Network : Learning of Attention Mechanism for Visual Explanation", in CVPR, 2019.
-- **Attention Consistency**: "Visual Attention Consistency under Image Transforms for Multi-label Image Classification", in CVPR, 2019. (先变换后求attention和先求attention后变换之间保持一致)
+- **Attention Consistency**: "Visual Attention Consistency under Image Transforms for Multi-label Image Classification", in CVPR, 2019. (先变换后求attention和先求attention后变换之间保持一致)．
+- **Attention Constraint**: "DELTA: DEep Learning Transfer using Feature Map with Attention for Convolutional Networks", in ICLR, 2019. (限制pre-trained和fine-tuned network产生的attention map接近，避免fine-tune之后跑太偏产生over-fitting)．
+- **Spatial & Task Attention**: "A Dual Attention Network with Semantic Embedding for Few-shot Learning", in AAAI, 2019. 
+- **Spatial Attention**: "PSANet: Point-wise spatial attention network for scene parsing", in ECCV, 2018. (bi-direction spatial attention和over-completed conv有点意思)．
+- **Depth Attention**: "Depth-attentional Features for Single-image Rain Removal", in CVPR, 2019. (之后做polyp detection可以考虑用depth信息)．
+- **Pyramid Attention**: "Salient Object Detection with Pyramid Attention and Salient Edges", in CVPR, 2019. 
+- **Co-Attention**: "See More, Know More: Unsupervised Video Object Segmentation with Co-Attention Siamese Networks", in CVPR, 2019. （之后可以仔细研究一下Co-attention）.
+- **Contextual Attention**: "PiCANet: Learning Pixel-wise Contextual Attention for Saliency Detection", in CVPR, 2018. 
+- **Attention Dropout**: "Attention-based Dropout Layer for Weakly Supervised Object Localization", in CVPR, 2019. 
 
 
 ## Non-local:
@@ -47,6 +55,7 @@
 - **Spatial & Channel-wise Non-local**: "Dual Attention Network for Scene Segmentation", in CVPR, 2019.
 - **Residual Non-local Attention**: "RESIDUAL NON-LOCAL ATTENTION NETWORKS FOR IMAGE RESTORATION", in ICLR, 2019.
 - **Non-local & SENet**: "GCNet: Non-local Networks Meet Squeeze-Excitation Networks and Beyond", in Arxiv, 2019.
+- **Non-local & Context Encoding**: "Non-Local Context Encoder: Robust Biomedical Image Segmentation against Adversarial Attacks", in AAAI oral, 2019.
 
 
 ## Fine-grained Classification:
@@ -55,10 +64,18 @@
 
 ## Semantic Segmentation:
 - **Sub-net & Sub-stage aggregation**: "DFANet: Deep Feature Aggregation for Real-Time Semantic Segmentation", in CVPR, 2019.
+- **Saliency transformation**: "Saliency Transformation Network: Incorporating Multi-stage Visual Cues for Pancreas Segmentation", in CVPR, 2018. (利用saliency对原图transform得到fine-scaled input)．
 - 
+
 ## Network Ensemble:
 - **High/low scale networks**: "High Frequency Residual Learning for Multi-Scale Image Classification", in Arxiv, submitted to BMCV.
 
+## Second-order Information:
+- **Basic Work**: "Is Second-order Information Helpful for Large-scale Visual Recognition?", in ICCV, 2017. 
+- **Second-order & SENet**: "Second-order Attention Network for Single Image Super-Resolution", in CVPR oral, 2019. 
+- **Second-order channel attention**: "Global Second-order Pooling Convolutional Networks", in CVPR, 2019. 
+- **First & Second-order Feature**: "FASON: First and second order information fusion network for texture recognition", in CVPR, 2017. 
+- **Second-order feature fusion**: "SORT: Second-Order Response Transform for Visual Recognition", in ICCV, 2017. 
 
 ## 待读：
 
