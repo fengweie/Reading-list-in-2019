@@ -9,6 +9,7 @@
 - **Mimic by Adversary**: "Training Shallow and Thin Networks for Acceleration via Knowledge Distillation with Conditional Adversarial Networks", 2017.
 - **Multi teachers**: "Amalgamating Knowledge towards Comprehensive Classification", in AAAI, 2019.
 - **DML**: "Deep Mutual Learning", in CVPR, 2018.
+- **Dual Student**: "Dual Student: Breaking the Limits of the Teacher in Semisupervised Learning", in ICCV, 2019. (根据两网络的stability设置相互学习的条件)⭐️⭐️⭐️
 
 
 ## Learning with Noisy Labels:
@@ -32,6 +33,7 @@
 - **Attentive feedback & boundary aware**: "AFNet: Attentive Feedback Network for Boundary-Aware Salient Object Detection", in CVPR, 2019. （Ternary saliency有点意思）⭐️⭐️⭐️
 - **Feature Selection**: "Efficient saliency detection using convolutional neural networks with feature selection", in Information Science, 2018.⭐️⭐️
 - **Deep Supervision**: "DNA: Deeply-supervised Nonlinear Aggregation for Salient Object Detection", in CVPR, 2019.⭐️⭐️⭐️
+- **Mutual Supervision**: "Multi-source weak supervision for saliency detection" in ICCV, 2019. (classification网络和caption得到的saliency互相提供psuedo lable监督)⭐️⭐️⭐️
 
 
 ## Attention:
@@ -48,6 +50,14 @@
 - **Co-Attention**: "See More, Know More: Unsupervised Video Object Segmentation with Co-Attention Siamese Networks", in CVPR, 2019. （之后可以仔细研究一下Co-attention）. ⭐️⭐️⭐️⭐️
 - **Contextual Attention**: "PiCANet: Learning Pixel-wise Contextual Attention for Saliency Detection", in CVPR, 2018. ⭐️⭐️⭐️⭐️⭐️
 - **Attention Dropout**: "Attention-based Dropout Layer for Weakly Supervised Object Localization", in CVPR, 2019. ⭐️⭐️⭐️
+- **Spatial Enhance**: "Spatial Group-wise Enhance (SGE): Improving Semantic Feature Learning in Convolutional Networks", in Arxiv. (根据global和local feature的similarity分配weight).⭐️
+- **Gather-Excite**: "Gather-Excite(GE): Exploiting Feature Context in Convolutional Neural Networks", in NIPS, 2018. (对SE module的改进)⭐️⭐️⭐️
+- **GC-Net**: "GCNet: Non-local Networks Meet Squeeze-Excitation Networks and Beyond", in CVPR, 2019. (SE和nonlocal的结合)⭐️⭐️⭐️⭐️
+- **Attention Mining**: "Tell Me Where to Look: Guided Attention Inference Network", in CVPR, 2018. (根据attention对原图mask之后也作为网络输入)⭐️⭐️
+- **Spatial Attention**: "An Empirical Study of Spatial Attention Mechanisms in Deep Networks", in ICCV, 2019. (深入分析各种attention mechanism，值得研究)⭐️⭐️⭐️⭐️
+- **Attention Mask**: "Learning to Detect Salient Objects with Image-level Supervision", in CVPR, 2017. ⭐️⭐️⭐️
+- **Self-Critic**: "Self-Critical Attention Learning for Person ReIdentification", in ICCV, 2019. ⭐️⭐️⭐️⭐️
+- **Self Attention Distillation**: "Learning Lightweight Lane Detection CNNs by Self Attention Distillation", in AAAI, 2019. (浅层学习深层attention maps)⭐️⭐️⭐️
 
 
 ## Non-local:
@@ -75,6 +85,15 @@
 - **Second-order channel attention**: "Global Second-order Pooling Convolutional Networks", in CVPR, 2019. ⭐️⭐️⭐️⭐️⭐️
 - **First & Second-order Feature**: "FASON: First and second order information fusion network for texture recognition", in CVPR, 2017. ⭐️⭐️⭐️
 - **Second-order feature fusion**: "SORT: Second-Order Response Transform for Visual Recognition", in ICCV, 2017.⭐️⭐️ 
+- **Covariance Pooling**: "Remote sensing scene classification using multilayer stacked covariance pooling", 2018 Q1. ⭐️
+- **SONA**: "Second-order Non-local Attention Networks for Person Re-identification", in ICCV, 2019. ⭐️⭐️ 
+
+## Loss Function:
+- **AdaCos Loss**: "AdaCos: Adaptively Scaling Cosine Logits for Effectively Learning Deep Face Representations", in CVPR, 2019. (对cosface loss的改进)⭐️⭐️⭐️⭐️
+
+
+## Deformable Convolution:
+- **Location aware deformable conv**: "Object detection with location-aware deformable convolution and backward attention filtering", in CVPR, 2019. (和deformable conv不同，本文的每个采样点都是作为生成offsets的中心)⭐️⭐️⭐️
 
 ## 待读：
 
