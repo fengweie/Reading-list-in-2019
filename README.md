@@ -58,6 +58,7 @@
 - **Attention Mask**: "Learning to Detect Salient Objects with Image-level Supervision", in CVPR, 2017. ⭐️⭐️⭐️
 - **Self-Critic**: "Self-Critical Attention Learning for Person ReIdentification", in ICCV, 2019. ⭐️⭐️⭐️⭐️
 - **Self Attention Distillation**: "Learning Lightweight Lane Detection CNNs by Self Attention Distillation", in AAAI, 2019. (浅层学习深层attention maps)⭐️⭐️⭐️
+- **Attention Guide**: "Guided Soft Attention Network for Classification of Breast Cancer Histopathology Images", in TMI, 2019. ⭐️
 
 
 ## Non-local:
@@ -68,13 +69,14 @@
 - **Non-local & Context Encoding**: "Non-Local Context Encoder: Robust Biomedical Image Segmentation against Adversarial Attacks", in AAAI oral, 2019.⭐️⭐️⭐️
 
 
-## Fine-grained Classification:
+## Attention Guided Resampling:
 - **Trilinear Attention Sampling**: "Looking for the Devil in the Details : Learning Trilinear Attention Sampling Network for Fine-grained Image Recognition", in CVPR, 2019.⭐️⭐️⭐️⭐️
 - **Saliency-based Sampling**: "Learning to Zoom : a Saliency-Based Sampling", in ECCV, 2018.⭐️⭐️⭐️
+- **Retargeting**: "Weakly- and Self-Supervised Learning for Content-Aware Deep Image", in ICCV, 2017. ⭐️⭐️⭐️
 
 ## Semantic Segmentation:
 - **Sub-net & Sub-stage aggregation**: "DFANet: Deep Feature Aggregation for Real-Time Semantic Segmentation", in CVPR, 2019.⭐️⭐️
-- **Saliency transformation**: "Saliency Transformation Network: Incorporating Multi-stage Visual Cues for Pancreas Segmentation", in CVPR, 2018. (利用saliency对原图transform得到fine-scaled input)．⭐️⭐️⭐️⭐️
+- **Saliency transformation**: "Saliency Transformation Network: Incorporating Multi-stage Visual Cues for Pancreas Segmentation", in CVPR, 2018. (利用saliency对原图crop得到fine-scaled input)．⭐️⭐️⭐️⭐️
 
 ## Network Ensemble:
 - **High/low scale networks**: "High Frequency Residual Learning for Multi-Scale Image Classification", in Arxiv, submitted to BMCV.⭐️⭐️
@@ -90,9 +92,12 @@
 
 ## Loss Function:
 - **AdaCos Loss**: "AdaCos: Adaptively Scaling Cosine Logits for Effectively Learning Deep Face Representations", in CVPR, 2019. (对cosface loss的改进)⭐️⭐️⭐️⭐️
+- **Margin ranking Loss**: "Multi-Task Deep Model with Margin Ranking Loss for Lung Nodule Analysis", in TMI, 2019. ⭐️⭐️
 
 
 ## Deformable Convolution:
+- **Basic Work**: "Deformable Convolutional Networks", in CVPR, 2017. ⭐️⭐️⭐️⭐️⭐️
+- **Basic Work**: "Deformable ConvNets v2: More Deformable, Better Results", in Arxiv. ⭐️⭐️⭐️⭐️
 - **Location aware deformable conv**: "Object detection with location-aware deformable convolution and backward attention filtering", in CVPR, 2019. (和deformable conv不同，本文的每个采样点都是作为生成offsets的中心)⭐️⭐️⭐️
 
 ## 待读：
